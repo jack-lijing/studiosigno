@@ -1,0 +1,55 @@
+header,section,footer,aside,nav,main,article,figure{
+  direction: block;
+}
+
+header {
+  padding: 0px;
+  background-image: url(img/headbg.jpg);
+  align-content: center;
+  text-align: center;
+  height: 400px;
+}
+
+h1 {
+  float:left;
+  width: 300px;
+  padding:5px; 
+}
+
+#headsign {
+  text-decoration:none;
+  color: blue;
+  opacity: 0.4;
+}
+#hi-c{
+  width: 100%;
+}
+
+#hi{
+  display:block; 
+  width:200px;
+  height: 200px;
+  border-radius: 100px;
+  background: #000;
+  color: #fff;
+  line-height: 200px;
+  text-align: center;
+  font-size: 100px; 
+  position: center;
+  margin-top: -1.0em;
+}
+
+#hi:hover{
+  color: #ccc;
+  background: #333;
+}
+
+
+nav ul li {
+    float: right;
+    line-height:30px;
+    height:30px;
+    width:50px;
+    padding:5px;
+    display: inline;
+}
