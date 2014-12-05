@@ -1,49 +1,62 @@
-header,section,footer,aside,nav,main,article,figure{
-  direction: block;
+.indexslider{
+  position: relative;
+  padding: 3em;
 }
 
-header {
+.wrapper{
+  clear: both;
+}
+
+.indexslider{
+  min-height: 155px;
+  position: relative;
+}
+
+.sliderNav{
+  position: relative;
+  text-align: center;
+}
+
+#project-one{
+  z-index: 2;
+  left:0px;
+  top:0px;
+  display: :list-item;
+}
+
+#project-two{
+  z-index: 0;
+  left:-9999px;
+  top:-9999px;
+  display: list-item;
+}
+#project-three{
+  z-index: 0;
+  left:-9999px;
+  top:-9999px;
+  display: list-item;
+}
+
+* {
+  margin: 0px;
   padding: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #00AAE4;
+}
+header {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 80px;
   background-image: url(img/headbg.jpg);
   align-content: center;
   text-align: center;
-  height: 400px;
+ // position:fixed;
+  z-index: 1;
 }
-
-h1 {
-  float:left;
-  width: 300px;
-  padding:5px; 
-}
-
-#headsign {
-  text-decoration:none;
-  color: blue;
-  opacity: 0.4;
-}
-#hi-c{
-  width: 100%;
-}
-
-#hi{
-  display:block; 
-  width:200px;
-  height: 200px;
-  border-radius: 100px;
-  background: #000;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  font-size: 100px; 
-  position: center;
-  margin-top: -1.0em;
-}
-
-#hi:hover{
-  color: #ccc;
-  background: #333;
-}
-
 
 nav ul li {
     float: right;
@@ -52,4 +65,179 @@ nav ul li {
     width:50px;
     padding:5px;
     display: inline;
+}
+
+nav {
+  padding: 1em;
+}
+
+nav ul li a{
+  color:white;
+}
+
+a:hover{
+  color:blue;
+}
+
+.logo{
+  width:10em;
+  float: left;
+  color:green;
+  font-size: 1.2em;
+  text-shadow:initial;
+  font-weight:bold;
+  display: inline;
+  font-family:"sans-serif","隶书","宋体"
+}
+
+#hi{
+  width:1.4em;
+  height: 1.4em;
+  border-radius: 1.4em;
+  background: #000;
+  color: #fff;
+  line-height: 1.4em;
+  font-size: 70px; 
+  margin-top: 0em;
+  text-align: center;
+  position: relative;
+  left: 45%;
+ /* margin-left: 50%;*/
+  cursor: help;
+
+}
+
+#hi:hover{
+  color: #ccc;
+  background: #333;
+}
+
+section {
+  margin: 0em;
+  text-align: center;
+  font-size: 1.92em;
+  line-height: 1.4em;
+  float: none;
+}
+
+p{
+  margin: 1em;
+  clear: both; 
+}
+#project{
+  border:4px solid #F3F3F3;
+  height: 600px;
+  width:100%;
+  background-color: #F3F3F3;
+  margin: 0px 0px 0px 0px;
+  padding-left: 50px;
+}
+#project-a{
+  float: left;
+  width: 50%;
+  height: 100%;
+  opacity: 0.5;
+  background-image: url(img/project-jd.jpg);
+}
+#project-b{
+  float:right;
+  width: 50%;
+  height: 100%;
+  background-image: url(img/project-jd.jpg);
+}
+
+section a{
+  margin: 5px;
+  padding: 0px;
+}
+section img{
+  padding: 0px;
+  margin: 0em;
+  border:0px;
+  float: left;
+  width: 45%;
+  height: 600px;
+}
+
+
+img[title="ks"] {
+  opacity: 0.5;
+}
+
+.contract {
+  background-color: #F3F3F3;
+  line-height: 37.8px;
+  text-align: center;
+  display: block;
+}
+
+h2{
+  margin-top: 2em;
+}
+
+#head-c{
+  text-anchor: center;
+  background-color: #F3F3F3;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#head {
+  transition: all;
+  width:160px;
+  height: 160px;
+  border-radius: 160px;
+  background-image: url(img/people-1.jpg);
+  background-color: #f3f3f3;
+  text-align: center;
+  margin-left: 42%;
+}
+#head:hover{
+  opacity: 0.5;
+}
+address{
+  margin: 1.5em;
+}
+
+.contract{
+  clear:none;
+  width: 100%;
+  text-align: center;
+  border:1px solid #999;
+}
+
+.contract h1{
+  margin: 1em;
+}
+
+input {
+  margin: 0.5em;
+  padding: 1em;
+  width: 25%;
+  text-align: left;
+  box-sizing: border-box;
+  border-color: #CECECE;
+  border: 1px solid #999
+}
+
+textarea{
+  margin-top: 1em;
+  padding: 1em;
+  width: 52%;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid #999
+}
+
+.submit {
+  margin: 1em;
+  width:15%;
+  text-align: center;
+}
+
+footer{
+  padding-top: 3em;
+  text-align: center;
+  height: 4em;
+  width: 100%;
 }
