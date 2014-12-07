@@ -1,5 +1,4 @@
 .indexslider{
-  position: relative;
   padding: 3em;
 }
 
@@ -9,11 +8,9 @@
 
 .indexslider{
   min-height: 155px;
-  position: relative;
 }
 
 .sliderNav{
-  position: relative;
   text-align: center;
 }
 
@@ -54,7 +51,6 @@ header {
   background-image: url(img/headbg.jpg);
   align-content: center;
   text-align: center;
- // position:fixed;
   z-index: 1;
 }
 
@@ -113,24 +109,26 @@ a:hover{
 }
 
 section {
-  margin: 0em;
+  margin-top: 20px;
   text-align: center;
   font-size: 1.92em;
   line-height: 1.4em;
   float: none;
+  clear: both;
 }
 
 p{
   margin: 1em;
   clear: both; 
 }
+
 #project{
-  border:4px solid #F3F3F3;
+   margin: 0px 0px 0px 0px;
+  border:0px solid #F3F3F3;
+  padding-left: 6%;
   height: 600px;
-  width:100%;
+  width:94%;
   background-color: #F3F3F3;
-  margin: 0px 0px 0px 0px;
-  padding-left: 50px;
 }
 #project-a{
   float: left;
@@ -147,13 +145,10 @@ p{
 }
 
 section a{
-  margin: 5px;
-  padding: 0px;
+  margin: 0px;
+  padding: 5px;
 }
-section img{
-  padding: 0px;
-  margin: 0em;
-  border:0px;
+#project a img{
   float: left;
   width: 45%;
   height: 600px;
@@ -164,12 +159,6 @@ img[title="ks"] {
   opacity: 0.5;
 }
 
-.contract {
-  background-color: #F3F3F3;
-  line-height: 37.8px;
-  text-align: center;
-  display: block;
-}
 
 h2{
   margin-top: 2em;
@@ -200,10 +189,12 @@ address{
 }
 
 .contract{
-  clear:none;
+  background-color: #F3F3F3;
   width: 100%;
   text-align: center;
   border:1px solid #999;
+  display: block;
+  float: left;
 }
 
 .contract h1{
