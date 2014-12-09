@@ -1,0 +1,61 @@
+footer{
+  padding-top: 3em;
+  text-align: center;
+  height: 4em;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #00AAE4;
+}
+
+header {
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 80px;
+  background-image: url(../img/headbg.jpg);
+  align-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+nav ul li {
+    float: right;
+    line-height:30px;
+    height:30px;
+    width:50px;
+    padding:5px;
+    display: inline;
+}
+
+nav {
+  padding: 1em;
+}
+
+nav ul li a{
+  color:white;
+}
+
+a:hover{
+  color:blue;
+}
+
+.logo{
+  width:10em;
+  float: left;
+  color:green;
+  font-size: 1.2em;
+  text-shadow:initial;
+  font-weight:bold;
+  display: inline;
+  font-family:"sans-serif","隶书","宋体"
+}

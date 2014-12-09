@@ -1,0 +1,19 @@
+#pfirst{
+}
+#psecond{
+}
+#pthird{
+}
+#pre{
+  cursor:inherit;
+  text-decoration:black;
+}
+
+.show{
+  display:block;
+  width: 100%;
+  height: 400px;
+}
+.hide{
+  display: none;
+}
