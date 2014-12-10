@@ -1,3 +1,7 @@
+section,header,footer,article{
+  display: block;
+}
+
 footer{
   padding-top: 3em;
   text-align: center;
@@ -16,19 +20,17 @@ a{
   color: #00AAE4;
 }
 
-header {
-  position: fixed;
+#header {
   margin: 0px;
   padding: 0px;
   width: 100%;
   height: 80px;
   background-image: url(../img/headbg.jpg);
-  align-content: center;
   text-align: center;
   z-index: 1;
 }
 
-nav ul li {
+.menu li {
     float: right;
     line-height:30px;
     height:30px;
@@ -37,25 +39,23 @@ nav ul li {
     display: inline;
 }
 
-nav {
+.menu {
   padding: 1em;
 }
 
-nav ul li a{
+.menu a{
   color:white;
 }
 
-a:hover{
+.menu a:hover{
   color:blue;
 }
 
-.logo{
+.menu .logo{
   width:10em;
   float: left;
   color:green;
   font-size: 1.2em;
-  text-shadow:initial;
   font-weight:bold;
-  display: inline;
-  font-family:"sans-serif","隶书","宋体"
+  font-family:"隶书","宋体"
 }

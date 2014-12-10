@@ -1,0 +1,28 @@
+#claim{
+	margin:1em 3em;
+	font-size:3em;
+}
+
+dd{
+	display: block;
+	position: relative;
+	left: 160px;
+	border: 3px red double;
+	width: 160px;
+	height: 160px;
+	float:left;
+	opacity: 0;
+}
+dd:hover{
+	opacity: 1;
+}
+
+dt{
+	display: block;
+	background-image: url(img/member.jpg);
+	float: left;
+	
+}
+dt:hover{
+	opacity: 0.1;
+}

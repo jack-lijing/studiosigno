@@ -6,7 +6,7 @@ article{
 .section_container{
   position: relative;
   height: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0px auto;
   padding: 1.5em 0px;
 }
@@ -26,6 +26,12 @@ article{
   font-weight: 400;
   font-size: 1em;
   margin-bottom: 0.525em;
+}
+
+.section_container img{
+  border: 12px #ffff03 double;
+  overflow: hidden;
+  width: 800px;
 }
 
 p{
