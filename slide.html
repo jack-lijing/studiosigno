@@ -2,15 +2,29 @@
 <html>
 <head>
 	<script type="text/javascript" src="slide.js" ></script>
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
 	<link rel="stylesheet" href="slide.css"></link>
 </head>
 <body>
 	<div id="slide">
+		<!--
 	<a id="pre">shang</a>
 		<div id="pfirst" class="show">rrr<img src="img/project-ks.png"></div>
-		<div id="psecond" class="hide">second<img src="img/project-jd.jpg"></div>
+		<div id="psecond" class="hide">second<img src="img/project-jd.png"></div>
 		<div id="pthird" class="hide"><img src="img/project-lc.png"></div>
 	<a id="next">xia</a>
+	</div
+	>-->
+	<div class="container">
+		<div id="pfirst" ><img src="img/project-ks.png"></div>
+		<div id="psecond" ><img src="img/project-jd.png"></div>
+		<div id="pthird" ><img src="img/project-lc.png"></div>
 	</div>
+	<ul>
+		<li><a onclick="pclick('0')"  class="on">1</a></li>
+		<li><a onclick="pclick('1')"  class="">2</a></li>
+		<li><a onclick="pclick(2)"  class="">3</a></li>
+	</ul>
+</div>
 </body>
 </html>

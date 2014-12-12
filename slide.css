@@ -1,16 +1,31 @@
-#pfirst{
+.container{
+  margin: 0px auto;
+  width: 937px;
+  height: 439px;
+  overflow: hidden;
 }
-#psecond{
+
+ul{
+  position: relative;
+  margin: -80px auto;
+  text-align: center;
 }
-#pthird{
+
+.wrapper{
+  margin:3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
-#pre{
-  cursor:inherit;
-  text-decoration:black;
+ul li{
+  display: inline-block;
+  width: 30px;
+}
+.on{
+  color:red;
 }
 
 .show{
-  display:block;
   width: 100%;
   height: 400px;
 }

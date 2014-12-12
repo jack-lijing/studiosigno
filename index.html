@@ -6,14 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <![endif]->
 <script type="text/javascript" src="html5.js"></script>
+<script type="text/javascript" src="jquery-1.11.1.js"></script>
 <meta charset="utf-8"></meta>
 <link type="text/css" rel="stylesheet" href="css/index.css"></link>
 <link type="text/css" rel="stylesheet" href="css/global.css"></link>
 <title>studiosigno.com</title>
 </head>
 <body>
-<header>
-<div id="header">
+<header id="header">
 <nav>
 <ul class="menu">
 <li><a href="project.html">作品</a></li>
@@ -23,7 +23,6 @@
 <li class="logo"><a href="index.html"><em class="logo">StudioSigno汉符设计</em></a></li>
 </ul>
 </nav>
-</div>
 </header>
 <div id="hi">
 Hi
@@ -37,35 +36,40 @@ Hi
 每一本<span><a>封面</a></span><br>
 每一个<span><a>展台</a></span><br>
 都是沉睡的婴儿,等待被唤醒,</p>
+</section>
+<!--
 <div id="project">
 <a href="project_1.html" alt="京都儿童医院导向牌-设计后"><img src="img/project-ks.png" alt="喀什" title="喀什青年路:设计前"></a>
 <a href="project_1.html" alt="京都儿童医院导向牌-设计后"><img src="img/project-ks.png" alt="喀什" title="喀什青年路:设计后"></a>
 </div>
+-->
+<section id="project">
 <!--
-<div class="indexslider">
-	<div class="wrapper">
-		<ul style="height:106px;" class="slidercon">
-			<li id="project-one" >
-				<a href="project.html" alt="京都儿童医院导向牌"><img src="img/project-jd.jpg" alt="jd" title="京都"></a>
+<div id="projectslider">
+		<ul class="slidercon">
+			<li id="p1" >
+				<a class="plink" href="project.html" alt="京都儿童医院导向牌"><img src="img/project-jd.png" alt="jd" title="京都"></img></a>
 			</li>
-			<li id="project-two" >
-				<a href="project.html" alt="京都儿童医院导向牌"><img src="img/project-ks.png" alt="jd" title="京都"></a>
+			<li id="p2" >
+				<a href="project.html" alt="京都儿童医院导向牌"><img src="img/project-ks.png" alt="jd" title="京都"></img></a>
 			</li>
-			<li id="project-three" >
-				<a href="project.html" alt="京都儿童医院导向牌"><img src="img/project-lc.png" alt="jd" title="京都"></a>
+			<li id="p3" >
+				<a href="project.html" alt="京都儿童医院导向牌"><img src="img/project-lc.png" alt="jd" title="京都"></img></a>
 			</li>
 		</ul>
-		<ul class="sliderNav">
-			<li class="hover_"></li>
-			<li class=""></li>
-			<li class=""></li>
-
-		<ul>
-	</div>
-	<div class="pre_next_btn" id="prev_"><div>
-	<div class="pre_next_btn" id="next_"><div>
 </div>
 -->
+<!---index nav  -->
+<div id="index_numico" class="indexBanner_num">
+	<a class="" href="javascript:void(0);">0</a>
+	<a class="" href="javascript:void(0);">1</a>
+	<a class="" href="javascript:void(0);">2</a>
+	<a class="" href="javascript:void(0);">3</a>
+	<a class="on" href="javascript:void(0);">4</a>
+	<a class="" href="javascript:void(0);">5</a>
+</div>
+</section>
+<section>
 <div class="people">
 	<blockquote>
 		<p class="clear">美是一种态度<br>
@@ -76,6 +80,7 @@ Hi
 	</blockquote>
 	<div id="head-c"><div id="head" title="人物简介\设计感言">郦</div></div>
 </div>
+</section>
 <address>
 北京市朝阳区草场地211号院11栋<br>
 邮编100015<br>
@@ -83,7 +88,6 @@ T:010-5206 0711 / 5206 0712<br>
 F:010-5206 0713<br>
 E-mail: AE@studiosigno.com<br>
 </address>
-</section>
 <section>
 <fieldset class="contract">
 <h1>敬请惠顾</h1>
