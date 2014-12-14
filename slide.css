@@ -1,8 +1,15 @@
 .container{
   margin: 0px auto;
-  width: 937px;
+  width: 1037px;
   height: 439px;
   overflow: hidden;
+  text-align: center;
+}
+
+p{
+  clear: both;
+  margin: 120px auto 0px auto;
+  text-align: center;
 }
 
 ul{

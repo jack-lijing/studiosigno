@@ -1,5 +1,6 @@
 .wrapper{
-  clear: both;
+  text-align: center;
+  margin-left:20%;
 }
 
 * {
@@ -18,6 +19,8 @@ a{
 
 section {
   margin-top: 20px;
+  margin-left: auto;
+  margin-left: auto;
   text-align: center;
   font-size: 1.92em;
   line-height: 1.4em;
