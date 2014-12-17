@@ -3,6 +3,14 @@
   src:url(font/ipamjm00301/ipamjm.ttf) format('truetype');
 }
 
+.logo{
+  float: left;
+  text-align: center;
+}
+#wx{
+  float: right;
+}
+
 .outer-wrap{
   text-align: center;
 }
@@ -21,7 +29,7 @@
   padding-bottom: 2em;
 }
 
-homepage-text{
+.homepage-text{
   padding: 1.92em;
   line-height: 3em;
 }
@@ -56,40 +64,30 @@ a{
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-image: url(../img/headbg.jpg);
   text-align: center;
   z-index: 1;
 }
 
-.menu li {
-    float: right;
-    line-height:30px;
-    height:30px;
-    width:50px;
-    padding:5px;
-    display: inline;
-}
 
-.menu {
-  padding: 1em;
-}
-
-.menu a{
-  color:white;
-}
 
 .menu a:hover{
   color:blue;
 }
 
-.menu .logo{
-  width:10em;
-  float: left;
-  color:green;
+.menu{
+  float: right;
   font-size: 1.2em;
-  font-weight:bold;
-  font-family:"IPAmj";
+}
+.menu li {
+    line-height:30px;
+    padding:5px;
+    display: inline;
+}
+
+.menu a{
+  color:white;
 }
 address{
   margin: 1.5em;
