@@ -1,3 +1,35 @@
+@font-face{
+  font-family: 'IPAmj';
+  src:url(font/ipamjm00301/ipamjm.ttf) format('truetype');
+}
+
+.outer-wrap{
+  text-align: center;
+}
+
+.inner-wrap{
+  font-size: 1.9em;
+}
+
+.section{
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+
+.section-gray{
+  background-color: #f3f3f3;
+  padding-bottom: 2em;
+}
+
+homepage-text{
+  padding: 1.92em;
+  line-height: 3em;
+}
+.homepage-head{
+  padding: 1em;
+}
+
+
 section,header,footer,article{
   display: block;
 }
@@ -57,5 +89,46 @@ a{
   color:green;
   font-size: 1.2em;
   font-weight:bold;
-  font-family:"隶书","宋体"
+  font-family:"IPAmj";
 }
+address{
+  margin: 1.5em;
+  text-align: center;
+}
+
+.contract{
+  background-color: #F3F3F3;
+  width: 100%;
+  text-align: center;
+  border:1px solid #999;
+}
+
+.contract h1{
+  margin: 1em;
+}
+
+input {
+  margin: 0.5em;
+  padding: 1em;
+  width: 25%;
+  text-align: left;
+  box-sizing: border-box;
+  border-color: #CECECE;
+  border: 1px solid #999
+}
+
+textarea{
+  margin-top: 1em;
+  padding: 1em;
+  width: 52%;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid #999
+}
+
+.submit {
+  margin: 1em;
+  width:15%;
+  text-align: center;
+}
+

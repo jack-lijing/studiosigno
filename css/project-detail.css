@@ -29,7 +29,7 @@ article{
 }
 
 .section_container img{
-  border: 12px #ffff03 double;
+  border: 12px #f3f3f3 double;
   overflow: hidden;
   width: 800px;
 }

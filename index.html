@@ -5,13 +5,14 @@
 	<script src=”http://html5shiv.googlecode.com/svn/trunk/html5.js”></script> 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <![endif]->
-<script type="text/javascript" src="html5.js"></script>
-<script type="text/javascript" src="jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="plugin/orbit.js"></script>
 <link rel="stylesheet" href="plugin/orbit.css"></link>
 <meta charset="utf-8"></meta>
 <link type="text/css" rel="stylesheet" href="css/index.css"></link>
 <link type="text/css" rel="stylesheet" href="css/global.css"></link>
+<link type="text/css" rel="stylesheet" href="font/stylesheet.css"></link>
 <title>studiosigno.com</title>
 <script type="text/javascript">
      $(window).load(function() {
@@ -24,16 +25,22 @@
 <nav>
 <ul class="menu">
 <li><a href="project.html">作品</a></li>
-<li><a href="manifesto.html">宗旨</a></li>
-<li><a href="members.html">成员</a></li>
+<li><a href="about.html">关于</a></li>
+<li><a  href="members.html">成员</a></li>
 <li><a href="blog.html">博客</a></li>
-<li class="logo"><a href="index.html"><em class="logo">StudioSigno汉符设计</em></a></li>
+<li class="logo">
+	<a href="index.html">
+		<em class="logo">
+			<span class="logo_en">StudioSigno</span>
+			<span class="logo_cn">漢符設計</span>
+		</em>
+	</a>
+</li>
 </ul>
 </nav>
 </header>
-<div id="hi">
-Hi
 </div>
+<div class="wrapper">
 <section id="introduce" title="公司愿景">
 <h1>那些年,我们追求的<span><a href="project.html" title="我们的追求">美</a></span></h1>
 <p id="duty">行走在帝都的钢筋水泥森林<br>
@@ -44,13 +51,11 @@ Hi
 每一个<span><a>展台</a></span><br>
 都是沉睡的婴儿,等待被唤醒,</p>
 </section>
-<section>
-<div class="wrapper">
+<section id="project">
 <div id="featured"> 
      <img src="img/project-ks.png" alt="Overflow: Hidden No More" />
      <img src="img/project-lc.png"  alt="HTML Captions" />
       <img src="img/project-jd.png" alt="and more features" />
-</div>
 </div>
 </section>
 
@@ -73,8 +78,8 @@ T:010-5206 0711 / 5206 0712<br>
 F:010-5206 0713<br>
 E-mail: AE@studiosigno.com<br>
 </address>
-<section>
-<fieldset class="contract">
+<section class="contract" >
+<fieldset >
 <h1>敬请惠顾</h1>
 <form class="cta-form" method="post" action="/people/contact">
 <input type="hidden" value="AE@studiosigno.com" name="to-email"></input>
@@ -90,5 +95,5 @@ E-mail: AE@studiosigno.com<br>
 <footer>
 Studiosigno@2014 all rights reserved
 </footer>
-</body>
+</div</body>
 </html>
