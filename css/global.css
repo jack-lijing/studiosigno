@@ -1,10 +1,9 @@
 
-
 section,header,footer,article{
   display: block;
 }
 
-footer{
+.footer{
   padding-top: 3em;
   text-align: center;
   height: 4em;
@@ -40,7 +39,7 @@ a{
 }
 
 .menu a{
-  color:white;
+  color: black;
 }
 
 .menu a:hover{
