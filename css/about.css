@@ -1,0 +1,34 @@
+
+.outer-wrap{
+  text-align: center;
+}
+
+.inner-wrap{
+  font-size: 1.9em;
+}
+
+.section{
+  height: 250px;
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+
+.section-gray{
+  height: 250px;
+  background-color: #f3f3f3;
+  padding-bottom: 2em;
+}
+
+.principle-head{
+  padding: 1em;
+  color: blue;
+}
+
+.principle-text{
+  padding-top: 2em;
+  font-style:oblique;
+}
+
+.homepage-head{
+  padding: 1em;
+}

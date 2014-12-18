@@ -1,3 +1,37 @@
+#index_cover{
+  background-image: url("../img/headbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: gray;
+  height: 400px;
+ 
+}
+#cover-position{
+  padding-top: 200px;
+  padding-left: 400px;
+}
+
+#cover_class{
+  display: block;
+  
+}
+#cover_name{
+  display: block;
+  font-size: 2em;
+}
+
+#hi{
+  font-size: 90px;
+  color: white;
+  font-family: "1942";
+  text-align: center;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: -50px auto 0px;
+}
+
 .wrapper{
   text-align: center;
 }
@@ -13,8 +47,6 @@ a{
   text-decoration: none;
   color: #00AAE4;
 }
-
-
 
 section {
   margin-top: 20px;
@@ -44,10 +76,6 @@ p{
   margin: 0px auto;
 }
 
-h2{
-  margin-top: 2em;
-}
-
 #head-c{
   text-anchor: center;
   background-color: #F3F3F3;
@@ -64,7 +92,7 @@ h2{
   margin-left: auto;
   margin-right: auto;
 }
+
 #head:hover{
   opacity: 0.5;
 }
-

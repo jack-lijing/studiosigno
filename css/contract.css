@@ -1,0 +1,40 @@
+address{
+  margin: 1.5em;
+  text-align: center;
+}
+
+.contract{
+  background-color: #F3F3F3;
+  width: 100%;
+  text-align: center;
+  border:1px solid #999;
+}
+
+.contract h1{
+  margin: 1em;
+}
+
+input {
+  margin: 0.5em;
+  padding: 1em;
+  width: 25%;
+  text-align: left;
+  box-sizing: border-box;
+  border-color: #CECECE;
+  border: 1px solid #999
+}
+
+textarea{
+  margin-top: 1em;
+  padding: 1em;
+  width: 52%;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid #999
+}
+
+.submit {
+  margin: 1em;
+  width:15%;
+  text-align: center;
+}
