@@ -1,5 +1,5 @@
 #claim{
-	margin:1em 3em;
+	padding:3em 3em 1em;
 	font-size:3em;
 }
 
@@ -22,7 +22,8 @@ dt img{
 .cardc {
 	position: relative;
 	margin: 0px auto;
-	width: 1000px;
+	text-align: center;
+	width: 60%;
 }
 
 .card{

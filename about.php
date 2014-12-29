@@ -9,8 +9,9 @@
 	<link type="text/css" rel="stylesheet" media="screen" href="css/contract.css">
 	<script type="text/javascript" src="html5.js"></script>
 </head>
-<div class="outer-wrap">
-<div class="inner-wrap">
+<div class="container">
+	<?php include 'header.xml';?>
+	<div class="inner-wrap">
 	<section class="section">
 		<p class="principle-text">客户:"你们真的特立独行"<br></br>
 		我们把他当作一种赞赏</p>
@@ -46,32 +47,9 @@
 		我们不为当下消费,我们只为未来投资
 		</p>	
 	</section>
+	<?php include 'contract.xml';?>
 	</div>
-<address>
-		<h2 class="homepage-head">联系方式</h2>
-北京市朝阳区草场地211号院11栋<br>
-邮编100015<br>
-T:010-5206 0711 / 5206 0712<br>
-F:010-5206 0713<br>
-E-mail: AE@studiosigno.com<br>
-</address>
-<section class="contract" >
-<fieldset >
-<h1>敬请惠顾</h1>
-<form class="cta-form" method="post" action="/people/contact">
-<input type="hidden" value="AE@studiosigno.com" name="to-email"></input>
-<input type="text" placeholder="请输入你的邮箱" name="email"></input>
-<input type="text" placeholder="请输入你的姓名" name="name"></input>
-<br>
-<textarea type="text" placeholder="你的声音" name="message"></textarea>
-<br>
-<input class="submit" type="submit" value="Send"></input>
-</form>
-</fieldset>
-</section>
-<footer class="footer">
-Studiosigno@2014 all rights reserved
-</footer>
+<?php include 'footer.xml';?>
 
 </div>
 </html>

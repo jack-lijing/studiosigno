@@ -1,0 +1,46 @@
+.bg_pic{
+  display: inline-block;
+  margin: 0px auto;
+}
+
+.bg_pic .figure{
+  float: left;
+  width: 377px;
+}
+
+.figcaption{
+  font:small oblique;
+  color:blue;
+}
+
+.figure{
+  overflow: hidden;
+}
+
+.inspiration{
+  clear: right;
+}
+.inspiration .figure{
+  width: 50%;
+  float: left;
+}
+
+#tianjin_hospital{
+  background-color: beige;
+  background-image: url("head.png");
+}
+
+.richtext img{
+  width: 500px;
+  height: 500px;
+}
+
+#fig_1{
+  float: left;
+  overflow: hidden;
+  width: 816px;
+}
+
+#fig_2{
+  overflow: hidden;
+}

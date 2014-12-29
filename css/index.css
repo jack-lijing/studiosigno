@@ -1,11 +1,26 @@
-#index_cover{
-  background-image: url("../img/headbg.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-color: gray;
-  height: 400px;
- 
+html{
+  width: 99.9%;
 }
+
+#index_cover{
+  background-image: url("../img/headbg.png");
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: gray;
+  height: 439px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#index_cover a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 #cover-position{
   padding-top: 200px;
   padding-left: 400px;
@@ -74,6 +89,7 @@ p{
   width: 971px;
   height: 439px;
   margin: 0px auto;
+  overflow: hidden;
 }
 
 #head-c{

@@ -1,10 +1,8 @@
 
-.outer-wrap{
-  text-align: center;
-}
-
 .inner-wrap{
+  text-align: center;
   font-size: 1.9em;
+  padding-top: 100px;
 }
 
 .section{

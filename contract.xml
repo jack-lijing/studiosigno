@@ -1,0 +1,14 @@
+<section class="contract" >
+	<fieldset >
+	<h1>敬请惠顾</h1>
+		<form class="cta-form" method="post" action="/people/contact">
+			<input type="hidden" value="AE@studiosigno.com" name="to-email"></input>
+			<input type="text" placeholder="请输入你的邮箱" name="email"></input>
+			<input type="text" placeholder="请输入你的姓名" name="name"></input>
+			<br></br>
+			<textarea type="text" placeholder="你的声音" name="message"></textarea>
+			<br></br>
+			<input class="submit" type="submit" value="Send"></input>
+		</form>
+	</fieldset>
+</section>
