@@ -1,8 +1,8 @@
 <section class="contract" >
 	<fieldset >
 	<h1>敬请惠顾</h1>
-		<form class="cta-form" method="post" action="/people/contact">
-			<input type="hidden" value="AE@studiosigno.com" name="to-email"></input>
+	<form class="cta-form" method="post" action="/mail.php">
+			<input type="hidden" value="02212@hutc.zj.cn" name="to-email"></input>
 			<input type="text" placeholder="请输入你的邮箱" name="email"></input>
 			<input type="text" placeholder="请输入你的姓名" name="name"></input>
 			<br></br>

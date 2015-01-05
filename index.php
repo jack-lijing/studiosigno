@@ -8,8 +8,9 @@
 <script type="text/javascript" src="js/html5.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="plugin/orbit.js"></script>
-<link rel="stylesheet" href="plugin/orbit.css"></link>
+<?php include 'font/test'?>
 <meta charset="utf-8"></meta>
+<link type="text/css" rel="stylesheet" href="plugin/orbit.css"></link>
 <link type="text/css" rel="stylesheet" href="css/index.css"></link>
 <link type="text/css" rel="stylesheet" href="css/contract.css"></link>
 <link type="text/css" rel="stylesheet" href="css/global.css"></link>
@@ -17,7 +18,7 @@
 <title>studiosigno.com</title>
 <script type="text/javascript">
      $(window).load(function() {
-	          $('#featured').orbit();
+		 $('#featured').orbit();
      });
 </script>
 </head>
@@ -47,8 +48,10 @@
 		都是沉睡的婴儿,等待被唤醒,</p>
 		</section>
 		<section id="project">
+		<!--span class="orbit-caption" id="firstcaption">喀什路标</span-->
 		<div id="featured"> 
-		     <img src="img/project-ks.png" alt="Overflow: Hidden No More" />
+		     <img src="img/project-ks.png" alt="Overflow: Hidden No More"/>
+		     <!--img src="img/project-ks.png" alt="Overflow: Hidden No More"  data-thumb="bullets.jpg"/-->
 		     <img src="img/project-lc.png"  alt="HTML Captions" />
 		      <img src="img/project-jd.png" alt="and more features" />
 		</div>

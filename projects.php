@@ -38,68 +38,103 @@
 			<div class="section_container">
 				<ul>
 					<li>
-						<div class="section_cover" style="background-image:url(img/project/1.jpg)">
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
 						<a class="project" href="project/1.php">
-							<div class="title">
-								<h1>中金证券</h1>
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
 							</div>
 						</a>
 						</div>
 					</li><li>
-						<div class="section_cover" style="background-image:url(img/project/1.jpg)">
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
 						<a class="project" href="project/1.php">
-							<div class="title">
-								<h1>中金证券</h1>
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
 							</div>
 						</a>
 						</div>
 					</li><li>
-						<div class="section_cover" style="background-image:url(img/project/2.jpg)">
-						<a class="project" href="/project/2.php">
-							<div class="title">
-								<h1>浪潮展台</h1>
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
+						<a class="project" href="project/1.php">
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
 							</div>
 						</a>
 						</div>
 					</li><li>
-						<div class="section_cover" style="background-image:url(img/project/3.jpg)">
-						<a class="project" href="/project/3.php">
-							<div class="title">
-								<h1>教材封面</h1>
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
+						<a class="project" href="project/1.php">
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
 							</div>
 						</a>
 						</div>
 					</li><li>
-						<div class="section_cover" style="background-image:url(img/project/6.jpg)">
-						<a class="project" href="/project/1.php">
-							<div class="title">
-								<h1>中金证券</h1>
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
+						<a class="project" href="project/1.php">
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
 							</div>
 						</a>
 						</div>
 					</li><li>
-						<div class="section_cover" style="background-image:url(img/project/5.jpg)">
-						<a class="project" href="/project/2.php">
-							<div class="title">
-								<h1>浪潮展台</h1>
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
+						<a class="project" href="project/1.php">
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
 							</div>
 						</a>
 						</div>
 					</li><li>
-						<div class="section_cover" style="background-image:url(img/project/4.jpg)">
-							<a class="project" href="/project/3.php">
-							<div class="title">
-								<h1>教材封面</h1>
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
+						<a class="project" href="project/1.php">
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
 							</div>
-							</a>
+						</a>
 						</div>
 					</li><li>
-						<div class="section_cover" style="background-image:url(img/project/4.jpg)">
-							<a class="project" href="/project/3.php">
-							<div class="title">
-								<h1>教材封面</h1>
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
+						<a class="project" href="project/1.php">
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
 							</div>
-							</a>
+						</a>
+						</div>
+					</li><li>
+						<div class="section_cover" style="background-image:url(/project/tianjin_hospital/head.png)">
+						<a class="project" href="project/1.php">
+							<div class="title-wrapper">
+								<div class="title">
+									<h1>天津医院</h1>
+									<h2>建筑空间导引系统</h2>
+								</div>
+							</div>
+						</a>
 						</div>
 					</li>
 				</ul>

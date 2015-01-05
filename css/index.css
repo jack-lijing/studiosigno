@@ -1,5 +1,6 @@
 html{
   width: 99.9%;
+  font-family: lijing;
 }
 
 #index_cover{
@@ -10,7 +11,7 @@ html{
   background-repeat: no-repeat;
   background-position: center center;
   background-color: gray;
-  height: 439px;
+  height: 768px;
   width: 100%;
   overflow: hidden;
 }
@@ -22,17 +23,21 @@ html{
 }
 
 #cover-position{
-  padding-top: 200px;
-  padding-left: 400px;
+  padding-top: 300px;
+  padding-left: 50%;
+  color: black;
+ // text-align: center;
 }
 
-#cover_class{
-  display: block;
-  
-}
-#cover_name{
+#cover_class,#cover_function{
   display: block;
   font-size: 2em;
+}
+
+#cover_name{
+  display: block;
+  font-size: 5em;
+  font-weight: bloder;
 }
 
 #hi{
@@ -111,4 +116,9 @@ p{
 
 #head:hover{
   opacity: 0.5;
+}
+
+.orbit-bullets li.has-thumb{
+  width: 100px;
+  height: 75px;
 }

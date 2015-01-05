@@ -7,6 +7,7 @@
 	<link type="text/css" rel="stylesheet" media="screen" href="../css/global.css">
 	<link type="text/css" rel="stylesheet" media="screen" href="../css/project.css">
 	<link type="text/css" rel="stylesheet" media="screen" href="tianjin_hospital/detail.css">
+	<link type="text/css" rel="stylesheet" href="/font/stylesheet.css"></link>
 	<script type="text/javascript" src="../js/html5.js"></script>
 </head>
 <body>

@@ -1,19 +1,22 @@
 <header id="header">
-<div class="logo">
-	<a href="index.php">
-		<em class="logo">
-			<span class="logo_en">StudioSigno</span>
-			<span class="logo_cn">漢符設計</span>
-		</em>
-	</a>
-</div>
-<img id="wx" src="/img/wx_ss_100.jpg" title="微信" alt="微信二维码"></img>
-<nav class="menu">
-	<ul>
-		<li><a href="/projects.php">作品</a></li>
-		<li><a href="/about.php">关于</a></li>
-		<li><a  href="/members.php">成员</a></li>
-	<li><a href="#">博客</a></li>
-	</ul>
-</nav>
+	<div id="header-opacity"></div>
+	<div id="header-position">
+		<div class="logo">
+			<a href="/index.php">
+				<em class="logo">
+					<span class="logo_en">StudioSigno</span>
+					<span class="logo_cn">漢符設計</span>
+				</em>
+			</a>
+		</div>
+		<nav class="menu">
+			<ul>
+				<li><div id="wx">微信</div></li>
+				<li><a href="/projects.php">作品</a></li>
+				<li><a href="/about.php">关于</a></li>
+				<li><a  href="/members.php">成员</a></li>
+				<li><a href="#">博客</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>

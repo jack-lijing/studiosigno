@@ -18,7 +18,7 @@ article{
 
 .head_cover{
   position: relative;
-  height: 400px;
+  height: 500px;
   width: 100%;
   margin: 0px auto;
   padding: 1.5em 0px;
@@ -27,22 +27,22 @@ article{
   background-position: center top;
   background-size: cover;
 }
+
 .project-heading{
   position: relative;
-  color: red;
-  text-align: center;
+ // text-align: center;
+  padding-left: 30%;
   margin-top: 12em;
 }
 
 .project-heading h1{
-  margin-bottom: 0.4em;
-  line-height: 1em;
-  font-size: 2.6em;
+  margin-bottom: 0em;
+ // line-height: 1em;
+  font-size: 3em;
 }
 
 .project-heading h2{
-  font-weight: 400;
-  font-size: 1em;
+  font-size: 2em;
   margin-bottom: 0.525em;
 }
 
