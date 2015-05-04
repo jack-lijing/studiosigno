@@ -8,7 +8,7 @@ if (!$con)
 mysql_select_db("ss",$con);
 $sql = "CREATE TABLE projects
 	(
-		projectid	int NOT NULL AUTO_INCREMENT,PRIMARY	KEY(ProjectID),
+		id	int NOT NULL AUTO_INCREMENT,PRIMARY	KEY(ProjectID),
 		name 		varchar(15),
 		introduce	varchar(1000),
 		picture		varchar(100)

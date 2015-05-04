@@ -2,7 +2,7 @@
 	require "class.item.php";
 	$P = new item;
 	$P->id= $_GET['id'];
-	$P->sql="select name,introduce,picture from projects where projectid = $P->id";
+	$P->sql="select name,introduce,picture from projects where id = $P->id";
 	$P->open();
 	$result = mysql_query($P->sql);
 	while($row = mysql_fetch_array($result))

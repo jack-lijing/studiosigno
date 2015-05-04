@@ -49,10 +49,10 @@
 
 	while($row = mysql_fetch_array($result))
 	{
-		echo "<li id=p$row[projectid]>\n";
-		echo "<a href=/admin/showproject.php?id=$row[projectid] >$row[name]</a>\n";
-		echo "<button onclick=deleteproject($row[projectid])>删除</button>\n";
-		echo "<a href=/admin/modifyproject.php?id=".$row['projectid'].">修改</a>\n";
+		echo "<li id=p$row[id]>\n";
+		echo "<a href=/admin/showproject.php?id=$row[id] >$row[name]</a>\n";
+		echo "<button onclick=deleteproject($row[id])>删除</button>\n";
+		echo "<a href=/admin/modifyproject.php?id=".$row['id'].">修改</a>\n";
 			#echo "<img src=http://172.20.7.61".urlencode($row['picture'])."/>";
 	  	echo "</li>\n";
 	}
