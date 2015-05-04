@@ -2,8 +2,6 @@
   position: relative;
   margin: 0px auto;
   max-width: 2250px;
- // min-width: 900px;
-
 }
 
 section,header,footer,article,figcaption,figure{
@@ -14,7 +12,8 @@ section,header,footer,article,figcaption,figure{
   clear: both;
 }
 
-.footer{
+#footer{
+  font-family: '1942';
   padding-top: 3em;
   text-align: center;
   height: 4em;
@@ -89,5 +88,23 @@ a{
   font-size: 0px;
   width: 80px;
   height: 80px;
-  
 }
+
+@font-face {
+    font-family: '1942';
+    src: url('../font/1942-webfont.eot');
+    src: url('../font/1942-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/1942-webfont.woff') format('woff'),
+         url('../font/1942-webfont.ttf') format('truetype'),
+         url('../font/1942-webfont.svg#1942_report1942_report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.logo_en{
+     font-family: '1942';
+     font-size: 1.5em;
+     color:green;
+}
+

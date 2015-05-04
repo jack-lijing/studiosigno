@@ -1,12 +1,16 @@
 <!doctype html>
 <html>
 <head>
+<!-[if lt IE9]>
+	<script src=”http://html5shiv.googlecode.com/svn/trunk/html5.js”></script> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<![endif]->
 	<meta charset="utf-8"></meta>
 	<meta content="汉字符号设计 品牌设计 路标设计"></meta>
 	<title>项目列表</title>
 	<link type="text/css" rel="stylesheet" media="screen" href="css/global.css">
 	<link type="text/css" rel="stylesheet" media="screen" href="css/projects.css">
-	<script type="text/javascript" src="html5.js"></script>
+	<script type="text/javascript" src="js/html5.js"></script>
 </head>
 <body>
 <div class="container">

@@ -1,14 +1,30 @@
 <section class="contract" >
-	<fieldset >
+<link type="text/css" rel="stylesheet" href="css/contract.css"></link>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("#b01").click(function(){
+	  	$.post("mail.php",
+		{
+			to:"02212@hutc.zj.cn",
+			from:document.getElementById("from").value,
+			name:document.getElementById("name").value,
+			message:document.getElementById("message").value,
+		},
+		function(data,status){
+		  alert("数据：" + data + "\n状态：" + status);
+		});
+	});
+});
+</script>
+<fieldset >
 	<h1>敬请惠顾</h1>
-	<form class="cta-form" method="post" action="/mail.php">
-			<input type="hidden" value="02212@hutc.zj.cn" name="to-email"></input>
-			<input type="text" placeholder="请输入你的邮箱" name="email"></input>
-			<input type="text" placeholder="请输入你的姓名" name="name"></input>
+	<form class="cta-form" method="post" action="">
+			<input id="from" type="text" placeholder="请输入你的邮箱" name="email"></input>
+			<input id="name" type="text" placeholder="请输入你的姓名" name="name"></input>
 			<br></br>
-			<textarea type="text" placeholder="你的声音" name="message"></textarea>
+			<textarea id="message" type="text" placeholder="你的声音" name="message"></textarea>
 			<br></br>
-			<input class="submit" type="submit" value="Send"></input>
+			<button id="b01" type="button">Send</button>
 		</form>
 	</fieldset>
 </section>

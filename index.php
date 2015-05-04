@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="zh-cn">
 <head>
-<!-[if lt IE9]>
-	<script src=”http://html5shiv.googlecode.com/svn/trunk/html5.js”></script> 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<![endif]->
 <script type="text/javascript" src="js/html5.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="plugin/orbit.js"></script>
@@ -12,9 +8,7 @@
 <meta charset="utf-8"></meta>
 <link type="text/css" rel="stylesheet" href="plugin/orbit.css"></link>
 <link type="text/css" rel="stylesheet" href="css/index.css"></link>
-<link type="text/css" rel="stylesheet" href="css/contract.css"></link>
 <link type="text/css" rel="stylesheet" href="css/global.css"></link>
-<link type="text/css" rel="stylesheet" href="font/stylesheet.css"></link>
 <title>studiosigno.com</title>
 <script type="text/javascript">
      $(window).load(function() {

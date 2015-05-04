@@ -1,0 +1,69 @@
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div>
+		<form action="insertproject.php" method="post">
+			<div>
+				<label for="name">name:</label>
+				<input id="name" type="text" name="name" /><br/>
+			</div>
+			<div>
+				<label for="intro">intro:</label>
+				<textarea cols=40 rows=14  name="intro" >introduce</textarea><br/>
+			</div>
+			<div >
+				<label >picture</label>
+				<input id="fileupload" type="file" name="files[]" multiple>
+				<div id="progress">
+						<div class="progress-bar" ></div>
+				</div>
+			</div>
+			<!-- The container for the uploaded files -->
+			<div id="files" class="files"></div>
+			<script src="upload/js/jquery.js"></script>
+			<!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
+			<script src="upload/js/vendor/jquery.ui.widget.js"></script>
+			<!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+			<script src="upload/js/jquery.iframe-transport.js"></script>
+			<!-- The basic File Upload plugin -->
+			<script src="upload/js/jquery.fileupload.js"></script>
+			<script>
+			/*jslint unparam: true */
+			/*global window, $ */
+			$(function () {
+				'use strict';
+//				host =window.location.host;
+//				alert(host);
+				//var url = "/project/upload/";
+				var url = "/admin/upload/";
+				$('#fileupload').fileupload({
+					url: url,
+					dataType: 'json',
+					done: function (e, data) {
+						$.each(data.result.files, function (index, file) {
+							$('<p/>').text(file.name).appendTo('#files');
+							$('#name').after("<input type=hidden  name=picture id=picture />");
+							$('#picture').val(url+"files/"+file.name);
+						});
+					},
+					progressall: function (e, data) {
+						var progress = parseInt(data.loaded / data.total * 100, 10);
+						$('#progress .progress-bar').css(
+							'width',
+							progress + '%'
+						);
+					}
+				}).prop('disabled', !$.support.fileInput)
+					.parent().addClass($.support.fileInput ? undefined : 'disabled');
+			});
+			</script>
+			<input type="submit" id="submit" value="submit"/>
+		</form>
+		</div>
+	</body>
+</html>
+	
+			

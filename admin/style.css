@@ -1,0 +1,40 @@
+#progress-bar{
+	border:none;
+	width: 0%;
+	height:18px;background:green;
+}
+#progress{
+	border:none;
+}
+form {
+	border:1px dotted #aaaaaa;
+	padding:0.5em;
+	line-height:1em;
+}
+input {
+	color: #00008B;
+	border:1px solid #00008B;
+}
+#name {
+	width:600px;
+}
+textarea{
+	width:600px;
+	height:400px;
+	color:#00008B;
+	border:1px solid #00008B;
+}
+#submit{
+	background-color:gray;
+}
+label{
+	width:200px;
+}
+div{
+	margin:1em;
+	text-align:center;
+}
+.lname{
+	width:20em;
+	display:inline;
+}
